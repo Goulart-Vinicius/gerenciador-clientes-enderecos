@@ -1,0 +1,56 @@
+INSTRUÇÕES PARA EXECUTAR O PROJETO
+
+1. ESTRUTURA DO PROJETO
+  /vanilla
+  │
+  ├── index.html
+  ├── INFO.txt
+  ├── app.js
+  ├── router.js
+  ├── .editorconfig
+  ├── .gitignore
+  ├── /css
+  │   └── main.css
+  │   └── reset.css
+  ├── /src
+  │   ├── /controller
+  │   |   └── Controller.js
+  │   |   └── Address.js
+  │   |   └── Dashboard.js
+  │   |   └── Register.js
+  │   |   └── Login.js
+  │   ├── /model
+  │   |   └── Model.js
+  │   |   └── Address.js
+  │   |   └── Client.js
+  │   |   └── User.js
+  │   └── /view
+  │   |   └── view.js
+  │   |   └── Address.js
+  │   |   └── Dashboard.js
+  │   |   └── Register.js
+  │   |   └── Login.js
+
+2. COMO EXECUTAR O PROJETO
+   - Abra o arquivo "index.html" em um navegador moderno (Google Chrome, Mozilla Firefox, Microsoft Edge, etc.).
+   - O projeto não requer instalação de servidores ou dependências externas, pois roda diretamente no navegador.
+
+3. FUNCIONALIDADES DA APLICAÇÃO
+   - Tela de Login:
+     - Insira um usuário e senha para acessar o sistema.
+     - Clique em "Cadastrar" para criar um novo usuário.
+     - Utilize o botão "Configurações" para fazer upload de um banco de dados pré-populado (formato JSON).
+   - Tela de Clientes:
+     - Cadastre novos clientes com os campos: Nome, CPF, Data de Nascimento, Telefone e Celular.
+     - Não é permitido cadastrar clientes com o mesmo CPF.
+   - Tela de Endereços:
+     - Cadastre endereços para os clientes, com campos: CEP, Rua, Bairro, Cidade, Estado e País.
+     - Marque um endereço como principal.
+   - Exportação de Dados:
+     - Utilize o botão "Exportar Banco de Dados" para baixar os dados em formato JSON.
+
+4. BANCO DE DADOS
+   - O banco de dados é gerenciado pelo AlaSQL e armazenado no navegador.
+   - Ao fazer upload de um banco de dados pré-populado, os dados serão carregados automaticamente.
+   - Os dados podem ser exportados em formato JSON para backup ou compartilhamento.
+
